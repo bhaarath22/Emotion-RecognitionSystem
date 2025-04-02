@@ -2,12 +2,12 @@
 
 ## ***Table of Contents***
 1. [Basics](#Basics)
-2. ![Metrics](#Metrics-in-TensorFlow)
-3. [Layers](#DL-Notes/Layers)
-4. [Regularization](#DL-Notes/Regularization-Optimizers-Callbacks)
-5. [Optimizers](#DL-Notes/Regularization-Optimizers-Callbacks)
-6. [Callbacks](#DL-Notes/Regularization-Optimizers-Callbacks)
-7. [TransferLearning](#DL-Notes/Transfer-Learning)
+2. [Metrics](#Metrics-in-TensorFlow)
+3. [Layers](DL-Notes/Layers)
+4. [Regularization](DL-Notes/Regularization-Optimizers-Callbacks)
+5. [Optimizers](DL-Notes/Regularization-Optimizers-Callbacks)
+6. [Callbacks](DL-Notes/Regularization-Optimizers-Callbacks)
+7. [TransferLearning](DL-Notes/Transfer-Learning)
 8. [Refferences](#References)
 
 
