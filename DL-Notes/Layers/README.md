@@ -1,13 +1,13 @@
 ## ***Deep Learning Layers***  
 ---
 ### **Table of Contents**
-1. [Convolutional Layer](Convolutional-Layer)
-2. [Pooling & Activation Layers](Pooling-&-Activation-Layers)
-3. [Activation Layer](Activation-Layer)
-4. [Batch Normalization Layer](Batch-Normalization-Layer)
-5. [Dropout Layer](Dropout-Layer)
-6. [Flatten Layer](Flatten-Layer)
-7. [Fully Connected](Fully-Connected-(FC)-Layer-/-Dense-Layer)
+1. [Convolutional Layer](#Convolutional-Layer)
+2. [Pooling & Activation Layers](#Pooling-&-Activation-Layers)
+3. [Activation Layer](#Activation-Layer)
+4. [Batch Normalization Layer](#Batch-Normalization-Layer)
+5. [Dropout Layer](#Dropout-Layer)
+6. [Flatten Layer](#Flatten-Layer)
+7. [Fully Connected Layer](#Dense-Layer)
    ---
 ## ***Convolutional Layer***
 A Convolutional Layer (Conv Layer) is the core building block of a Convolutional Neural Network (CNN).  
@@ -255,7 +255,7 @@ layers.Flatten()
 
 ---
 
-## ***Fully Connected (FC) Layer / Dense Layer***
+## ***Dense Layer***
 
 A Fully Connected (FC) Layer, also called a Dense Layer in Keras, is a layer where every neuron is connected to every neuron in the next layer.  
 
