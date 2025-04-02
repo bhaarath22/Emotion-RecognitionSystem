@@ -45,7 +45,7 @@ The Convolutional Layer applies a small filter (kernel) to an input image or fea
   - **Same Padding**: Adds zeros so the output size matches the input size.
 ---
 
-## ***Pooling & Activation Layers***
+## ***Pooling and Activation Layers***
 
 ## **Pooling Layer**
 A Pooling Layer is an essential component of CNNs used to reduce the spatial dimensions (height and width) of feature maps while retaining important features.    
