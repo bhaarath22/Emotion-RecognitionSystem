@@ -1,7 +1,7 @@
 # ***Deep Learning***
 
 ## ***Table of Contents***
-1. [Basics](basics)
+1. [Basics](#Basics)
 2. [Metrics](Metrics-in-TensorFlow)
 3. [Layers](DL-Notes/Layers)
 4. [Regularization](DL-Notes/Regularization-Optimizers-Callbacks)
