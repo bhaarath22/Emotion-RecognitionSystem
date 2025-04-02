@@ -3,7 +3,7 @@
 ## ***Table of Contents***
 1. [Basics](#Basics)
 2. [Metrics](#Metrics-in-TensorFlow)
-3. [Layers](Emotion-RecognitionSystem/DL-Notes/Layers/)
+3. [Layers](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/2b12985693d4511a88989d5d0f46c87d3a33671f/DL-Notes/Layers/README.md)
 4. [Regularization](DL-Notes/Regularization-Optimizers-Callbacks)
 5. [Optimizers](DL-Notes/Regularization-Optimizers-Callbacks)
 6. [Callbacks](DL-Notes/Regularization-Optimizers-Callbacks)
