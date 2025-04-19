@@ -214,7 +214,8 @@ def r2_score(y_true, y_pred):
 model.compile(optimizer='adam', loss='mse', metrics=[r2_score])
 ```
 
----
+---  
+
 
 
 ## ***References***
