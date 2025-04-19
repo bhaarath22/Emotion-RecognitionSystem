@@ -10,7 +10,9 @@ Transfer learning is a technique where a pre-trained model, trained on a large d
 4. [Popular Transfer Learning Models](#4-popular-transfer-learning-models)
 5. [Advanced Transfer Learning Models](#5-advanced-transfer-learning-models)
 6. [Applications of Transfer Learning](#6-applications-of-transfer-learning)
-7. [Key Takeaways](#7-key-takeaways)
+7. [Gradient](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/25588289264c95af1b4559fc501e5ab8e474b8a4/DL-Notes/Transfer-Learning/Gradient.md)
+8. [TransferLearning Models](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/25588289264c95af1b4559fc501e5ab8e474b8a4/DL-Notes/Transfer-Learning/TL-Models.md)
+9. [Key Takeaways](#7-key-takeaways)
 
 ---
 ## *pros*  
