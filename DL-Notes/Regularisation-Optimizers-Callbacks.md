@@ -1,3 +1,8 @@
+## **Table of Contents**
+1. [Regularization Techniques](#Regularization-Techniques)
+2. [Optimizers](#Optimizers)
+3. [Callbacks](#Callbacks)
+   
 ## ***Regularization Techniques***  
 
 Regularization techniques help prevent overfitting by adding constraints to the model’s parameters, ensuring better generalization to unseen data. TensorFlow provides built-in regularizers that can be applied to convolutional and dense layers.
