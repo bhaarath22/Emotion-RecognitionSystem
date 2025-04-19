@@ -4,9 +4,9 @@
 1. [Basics](#Basics)
 2. [Metrics](#Metrics-in-TensorFlow)
 3. [Layers](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/2ed5ffa8ad21337dbaef134568fbd03439b6b3b4/DL-Notes/Layers.md)
-4. [Regularization](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/2ed5ffa8ad21337dbaef134568fbd03439b6b3b4/DL-Notes/Regularisation-Optimizers-Callbacks.md)
-5. [Optimizers](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/2ed5ffa8ad21337dbaef134568fbd03439b6b3b4/DL-Notes/Regularisation-Optimizers-Callbacks.md)
-6. [Callbacks](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/2ed5ffa8ad21337dbaef134568fbd03439b6b3b4/DL-Notes/Regularisation-Optimizers-Callbacks.md)
+4. [Regularization](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/032276181abd241d26d67427c5ad0e52352d476c/DL-Notes/Regularisation-Optimizers-Callbacks.md)
+5. [Optimizers](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/032276181abd241d26d67427c5ad0e52352d476c/DL-Notes/Regularisation-Optimizers-Callbacks.md)
+6. [Callbacks](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/032276181abd241d26d67427c5ad0e52352d476c/DL-Notes/Regularisation-Optimizers-Callbacks.md)
 7. [TransferLearning](https://github.com/bhaarath22/Emotion-RecognitionSystem/tree/292454e1d8bd4cc0af4a797b45d127f0dcd6f73f/DL-Notes/Transfer-Learning)
 8. [Refferences](#References)
 
