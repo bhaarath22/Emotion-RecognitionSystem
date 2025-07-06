@@ -1,8 +1,4 @@
-
-# 🧠 Explanation of required Imports ( all i used to  build my Final CNN Model)  
-
-## 📦 Python Imports — Explained by Category
-
+## 📦 Python Imports 
 ---
 
 ### 1️⃣ File Handling and Environment Setup
@@ -229,22 +225,3 @@ Used for interpreting performance beyond simple accuracy:
 - `ConfusionMatrixDisplay`: Plot confusion matrix as heatmap
 
 ---
-
-## 📂 Project Directory Suggestion
-
-```
-cnn_dl_project/
-├── data/                # Raw and processed data
-├── models/              # Saved model weights
-├── scripts/             # Python scripts for training and evaluation
-├── notebooks/           # Jupyter notebooks
-├── utils/               # Helper functions
-├── outputs/             # Logs, graphs, plots
-└── README.md            # This file
-```
-
----
-
-## ✍️ Author Notes
-
-This README is written with the intent of making CNN development intuitive and well-documented for myself and collaborators. All comments are tailored to help newcomers understand each component of the deep learning workflow.
