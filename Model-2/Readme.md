@@ -136,6 +136,191 @@ You can reuse this model without retraining it every time.
 
 ---
 
+## 😊 Prediction
+
+The prediction script can be found here: [`Model-2/2-Prediction.py`](Model-2/2-Prediction.py)
+
+Now trained deep learning model (`EmotionRecognitionSystem.h5`) is used to **detect and classify human emotions** such as:
+
+* **Happy**
+* **Sad**
+* **Angry**
+
+It supports two modes of prediction:
+
+### 🎥 Real-Time Webcam Prediction
+
+The system captures frames from your webcam in real time, detects faces, and classifies the emotion of the person in view. For each detected face, it:
+
+1. Detects the face using OpenCV’s Haar Cascade classifier.
+2. Preprocesses the face image to match the model’s input format (200x200, normalized).
+3. Uses the deep learning model to predict the emotion.
+4. Displays the emotion label and a personalized message on the screen.
+
+To run:
+
+```python
+predict_emotion(model, use_webcam=True)
+```
+
+### 🖼️ Static Image Prediction
+
+You can also use the model to classify emotions from a single image. The process is similar to the webcam mode:
+
+1. Load and preprocess the image.
+2. Predict the emotion using the model.
+3. Overlay the predicted emotion and an appropriate message on the image.
+
+To run:
+
+```python
+predict_emotion(model, use_webcam=False, image_path="path/to/image.jpg")
+```
+---  
+* TensorFlow (Keras) for deep learning inference
+* OpenCV for image handling and webcam integration
+* NumPy for data processing
+
+---
+
+## 📌 Features
+
+* Real-time emotion detection via webcam
+* Offline emotion classification from image files
+* Displays personalized messages based on the detected emotion
+* Uses Haar Cascade for face detection
+* Lightweight and efficient — works on CPU
+* Easy-to-extend codebase for additional emotion classes
+
+---
+## 🛠️ Technologies Used
+
+| Library        | Purpose                                                                 |
+| -------------- | ----------------------------------------------------------------------- |
+| `TensorFlow`   | Load and use trained deep learning model                                |
+| `OpenCV (cv2)` | Access webcam, detect faces, display images and overlay text            |
+| `NumPy`        | Handle image arrays and predictions                                     |
+| `time`         | (Optional) Measure processing or delay (not mandatory in current usage) |
+
+---
+
+## ⚙️ How It Works
+
+### 1. Load Model
+
+```python
+model = load_model('EmotionRecognitionSystem.h5')
+```
+
+Loads the pre-trained model for emotion classification.
+
+---
+
+### 2. Preprocess Image
+
+```python
+frame_resized = cv2.resize(frame, (200, 200))
+img_array = tf.keras.preprocessing.image.img_to_array(frame_resized)
+img_array /= 255.0
+img_array = np.expand_dims(img_array, axis=0)
+```
+
+* Resizes to `200x200` (the model input shape)
+* Converts to array, normalizes pixels, and adds batch dimension
+
+---
+
+### 3. Face Detection
+
+```python
+face_cascade = cv2.CascadeClassifier(
+    cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+faces = face_cascade.detectMultiScale(gray_frame, scaleFactor=1.1, minNeighbors=5)
+```
+
+* Detects faces in the video/image using Haar cascades
+
+---
+
+### 4. Predict Emotion
+
+```python
+prediction = model.predict(img_array)
+predicted_class_index = np.argmax(prediction)
+predicted_class_label = class_labels[predicted_class_index]
+```
+
+* Predicts the emotion class from the processed image
+
+---
+
+### 5. Display Results
+
+```python
+cv2.putText(frame, f"Emotion: {emotion}", ...)
+cv2.putText(frame, message, ...)
+```
+
+* Overlays emotion label and a message on the frame
+
+---
+
+## 💻 Usage Instructions
+
+### ▶️ Run Real-Time Webcam Emotion Detection
+
+```bash
+python main.py
+```
+
+In the script:
+
+```python
+predict_emotion(model, use_webcam=True)
+```
+
+* Opens webcam and displays real-time predictions and emotion messages.
+
+---
+
+### 🖼️ Run Image-Based Emotion Detection
+
+Uncomment and modify this in the script:
+
+```python
+predict_emotion(model, use_webcam=False, image_path="test_image.jpg")
+```
+
+Then run:
+
+```bash
+python main.py
+```
+
+---
+
+## 🗨️ Emotion Messages Logic
+
+Each detected emotion displays a custom message to provide context and support:
+
+| Emotion | Message                                                                    |
+| ------- | -------------------------------------------------------------------------- |
+| Happy   | "It's great to see you smiling! Keep spreading those positive vibes."      |
+| Sad     | "I see that you’re feeling a bit down. It’s okay to feel sad sometimes..." |
+| Angry   | "I notice you might be feeling angry. Take a deep breath..."               |
+| Unknown | "Emotion not recognized, but I hope you're feeling okay!"                  |
+
+---
+
+## ✅ Dependencies
+
+Install required Python packages:
+
+```bash
+pip install tensorflow opencv-python numpy
+```
+
+---  
 ## 🌱 Future Work
 
 Some improvements I’m considering:
