@@ -48,7 +48,7 @@ This setup helps the model generalize better and avoid overfitting.
 
 ---
 
-## 🧠 Model Overview
+## 🧠 Model Architecture
 
 ### CNN from Scratch
 
@@ -193,14 +193,14 @@ predict_emotion(model, use_webcam=False, image_path="path/to/image.jpg")
 * Easy-to-extend codebase for additional emotion classes
 
 ---
-## 🛠️ Technologies Used
+## 📌 Technologies Used
 
-| Library        | Purpose                                                                 |
-| -------------- | ----------------------------------------------------------------------- |
-| `TensorFlow`   | Load and use trained deep learning model                                |
-| `OpenCV (cv2)` | Access webcam, detect faces, display images and overlay text            |
-| `NumPy`        | Handle image arrays and predictions                                     |
-| `time`         | (Optional) Measure processing or delay (not mandatory in current usage) |
+| Library                                   | Purpose                                            |
+| ----------------------------------------- | -------------------------------------------------- |
+| [TensorFlow](https://www.tensorflow.org/) | Deep learning and model inference                  |
+| [OpenCV](https://opencv.org/)             | Image capture, face detection, visualization       |
+| [NumPy](https://numpy.org/)               | Image preprocessing and array manipulation         |
+| `time`                                    | Timing/logging (used optionally in real-time mode) |
 
 ---
 
@@ -263,42 +263,7 @@ cv2.putText(frame, message, ...)
 
 * Overlays emotion label and a message on the frame
 
----
-
-## 💻 Usage Instructions
-
-### ▶️ Run Real-Time Webcam Emotion Detection
-
-```bash
-python main.py
-```
-
-In the script:
-
-```python
-predict_emotion(model, use_webcam=True)
-```
-
-* Opens webcam and displays real-time predictions and emotion messages.
-
----
-
-### 🖼️ Run Image-Based Emotion Detection
-
-Uncomment and modify this in the script:
-
-```python
-predict_emotion(model, use_webcam=False, image_path="test_image.jpg")
-```
-
-Then run:
-
-```bash
-python main.py
-```
-
----
-
+---  
 ## 🗨️ Emotion Messages Logic
 
 Each detected emotion displays a custom message to provide context and support:
