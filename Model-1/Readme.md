@@ -69,13 +69,12 @@ During training, accuracy and loss are plotted for both training and validation 
 - Additional plots show loss and accuracy per epoch.
 
 ---
-# **Results**  
+# **Results** 
 ## Accuracy and Loss  
-![img](Model-1/Data/Accuracy&loss/A&C.png](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/fba6f6f6f200307dc4a08e18fc8a471051a9d2f5/Model-1/Data/Accuracy%26loss/A%26C.png)  
----  
-## Confusion Matrix
-![Cimg](Model-1/Data/Accuracy&loss/Confusion.png](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/fba6f6f6f200307dc4a08e18fc8a471051a9d2f5/Model-1/Data/Accuracy%26loss/Confusion.png)   
----  
+![Accuracy and Loss](https://raw.githubusercontent.com/bhaarath22/Emotion-RecognitionSystem/fba6f6f6f200307dc4a08e18fc8a471051a9d2f5/Model-1/Data/Accuracy%26loss/A%26C.png)
+## Confusion Matrix  
+![Confusion Matrix](https://raw.githubusercontent.com/bhaarath22/Emotion-RecognitionSystem/fba6f6f6f200307dc4a08e18fc8a471051a9d2f5/Model-1/Data/Accuracy%26loss/Confusion.png)
+
 ## Training 
 ![img3](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/ce2c8ebd8322011b9215bd656ee263a2c515c7d4/Model-1/Data/Accuracy%26loss/Training.png)
 ## 🔍 ***Observations & Challenges***
