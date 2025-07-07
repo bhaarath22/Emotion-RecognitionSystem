@@ -138,7 +138,7 @@ You can reuse this model without retraining it every time.
 
 ## 😊 Prediction
 
-The prediction script can be found here: [`Model-2/2-Prediction.py`](Model-2/2-Prediction.py)
+The prediction script can be found here: [`Model-2/2-Prediction.py`]([Model-2/2-Prediction.py](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/35031e082de9d8313aa600b9c4c41b59fd795867/Model-2/2-Prediciton.py))
 
 Now trained deep learning model (`EmotionRecognitionSystem.h5`) is used to **detect and classify human emotions** such as:
 
