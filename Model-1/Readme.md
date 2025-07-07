@@ -69,7 +69,14 @@ During training, accuracy and loss are plotted for both training and validation 
 - Additional plots show loss and accuracy per epoch.
 
 ---
-
+# **Results**  
+## Accuracy and Loss  
+![img}(Model-1/Data/Accuracy&loss/A&C.png)  
+---  
+## Confusion Matrix
+![Cimg](Model-1/Data/Accuracy&loss/Confusion.png)  
+## Training 
+![img3](Model-1/Data/Accuracy&loss/Training.png)
 ## 🔍 ***Observations & Challenges***
 
 1. **Overfitting Detected**
@@ -83,7 +90,6 @@ During training, accuracy and loss are plotted for both training and validation 
    - Facial images may lack diversity (age, ethnicity, lighting, pose).
 
 ---
-
 ## 🧠 ***Planned Improvements***
 
 1. **Data Augmentation**
