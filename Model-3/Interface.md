@@ -1,5 +1,5 @@
 # Graphical User Interface For  Emotion Recognition System
-### YOu can find [**Code**](3-Interface.py) here.
+### YOu can find [**Code here**](3-Interface.py).
 ## 1. Import Statements
 
 ```python
