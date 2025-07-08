@@ -24,7 +24,7 @@ pip install opencv-python-headless
 ```
 
 ---
-
+## [***Prediction***](2-Prediction.py)   <--Code
 ## 🏗️ How It Works
 
 ### 1. **Model Loading**
