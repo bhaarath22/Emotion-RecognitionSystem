@@ -81,7 +81,7 @@ The development of this project was an **iterative journey** through increasingl
 ---
 
 
-### 🧪 **Model 1: Initial Exploration — *Happy vs. Not Happy***
+### 🧪 **[Model 1](Model-1) : Initial Exploration — *Happy vs. Not Happy***
 
 #### 🎯 **Goal**
 
@@ -114,7 +114,7 @@ These insights set the stage for the next model versions:
 ---  
 
 
-### 🔍 **Model 2: Expanding Emotions & Introducing Transfer Learning**
+### 🔍 **[Model 2](Model-2) : Expanding Emotions & Introducing Transfer Learning**
 
 #### 🎯 **Goal**
 
@@ -162,7 +162,7 @@ Scale the model to classify **three key emotions**:
 ---
 
 
-### 🧠 **Model 3: Final Robust System — *8 Emotions with LeNet-Inspired Architecture***
+### 🧠 **[Model 3](Model-3) : Final Robust System — *8 Emotions with LeNet-Inspired Architecture***
 
 #### 🎯 **Goal**
 
