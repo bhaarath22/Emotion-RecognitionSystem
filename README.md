@@ -319,8 +319,7 @@ To boost diversity and avoid overfitting, the dataset undergoes:
 * 🌈 Random brightness/contrast shifts
 * 🔄 Flips, rotations, and translations
 * 🌫️ Gaussian noise & jitter
-* ✂️ **CutMix** blending (see [Model 3](#-model-3-final-robust-system-8-emotions-with-lenet-inspired-architecture))
-
+* ✂️ **CutMix** 
 > 🎯 This makes the model more **generalizable**, especially in real-world conditions.
 
 ---
