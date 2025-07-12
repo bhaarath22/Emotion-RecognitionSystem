@@ -116,7 +116,7 @@ Once the GUI application is running:
 
 
 
-![Data]()  
+![Data](GUI.png)
 
 ## 🌱 Future Improvements
 
