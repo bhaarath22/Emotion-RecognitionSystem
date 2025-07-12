@@ -108,7 +108,7 @@ Once the GUI application is running:
 
 
 
-![Click](Data/GUI)  
+![Data/GUI](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/3dcd816e843b16b7098f937330c267f370a68b89/Model-3/Data/GUI)  
 
 ## 🌱 Future Improvements
 
