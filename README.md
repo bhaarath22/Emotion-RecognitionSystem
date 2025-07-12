@@ -76,12 +76,15 @@ This project progressed through several **iterative CNN architectures**, each st
 
 ## 📈 Model Development Journey
 
+
 The development of this project was an **iterative journey** through increasingly advanced CNN architectures — each stage designed to improve **accuracy**, **generalization**, and **practical applicability**. Here's how it began:
 
 ---
 
 
-### 🧪 **[Model 1](Model-1) : Initial Exploration — *Happy vs. Not Happy***
+### 🧪 **Model-1 : Initial Exploration — *Happy vs. Not Happy***
+
+--> [here](Model-1) 
 
 #### 🎯 **Goal**
 
@@ -114,7 +117,9 @@ These insights set the stage for the next model versions:
 ---  
 
 
-### 🔍 **[Model 2](Model-2) : Expanding Emotions & Introducing Transfer Learning**
+### 🔍 **Model-2 : Expanding Emotions & Introducing Transfer Learning**
+
+--> [here](Model-2)
 
 #### 🎯 **Goal**
 
@@ -162,7 +167,9 @@ Scale the model to classify **three key emotions**:
 ---
 
 
-### 🧠 **[Model 3](Model-3) : Final Robust System — *8 Emotions with LeNet-Inspired Architecture***
+### 🧠 **Model-3 : Final Robust System — *8 Emotions with LeNet-Inspired Architecture***
+
+--> [here](Model-3)
 
 #### 🎯 **Goal**
 
