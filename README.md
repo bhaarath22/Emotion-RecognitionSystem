@@ -2,7 +2,15 @@
  
 ### Time Line September 2024 - Present  
 ---  
+## Table of Contents
 
+- [ Project Overview](#ProjectOverview)
+- [Features](#Features)
+- [Model Development Journey](#ModelDevelopmentJourney)
+- [How It Works](#HowItWorks)
+- [Future Improvements](#FutureImprovements)
+
+  
 ## ✨ Project Overview
 
 This project presents a powerful and insightful **🎭 Emotion Recognition System** that classifies human emotions 😄😢😠😲 using **Deep Learning**, primarily through **Convolutional Neural Networks (CNNs)** 🧠.
@@ -260,19 +268,6 @@ Implemented a **diverse and powerful augmentation pipeline** to improve robustne
 
 ---
 
-
-### 🔢 **Numerical & Data Handling**
-
-* 🧮 **NumPy**
-  Handles array manipulations and numerical processing of image data
-* 📁 **`os`**
-  Manages file paths and directory operations
-* 📄 **`json`**
-  Loads emotion-specific quotes and messages from a structured JSON file
-
----
-
-
 ### 📊 **Model Evaluation & Visualization**
 
 * 📉 **Matplotlib**
@@ -315,12 +310,6 @@ To boost diversity and avoid overfitting, the dataset undergoes:
 * 🌫️ Gaussian noise & jitter
 * ✂️ **CutMix** 
 > 🎯 This makes the model more **generalizable**, especially in real-world conditions.
-
----
-
-## 📜 **Scriptural Wisdom Integration**
-
-What sets this project apart is its **fusion of AI and ancient Indian philosophy**. After detecting an emotion, the system responds with a **motivational or reflective message** drawn from timeless Hindu scriptures.
 
 ---
 
@@ -467,18 +456,6 @@ To prevent overfitting and improve stability, I’ll also be looking into:
 * 🔄 *Stochastic Depth*
 
 These will allow the model to perform better on unseen data — especially in unpredictable real-world environments.
-
----
-
-I’ll be pushing updates regularly, so feel free to ⭐️ star the repo if you’d like to follow along.
-And of course, if you have any ideas or want to contribute — I’d love to collaborate!
-
----
-## 🙏 **Credits & Acknowledgments**
-
-This project is the result of not just code and computation, but also inspiration, tradition, and the power of open-source communities. I’d like to express my sincere gratitude to the following:
-
----
 
 ### 📖 **Scriptural Sources**
 
