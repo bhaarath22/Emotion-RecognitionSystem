@@ -2,13 +2,33 @@
  
 ### Time Line September 2024 - Present  
 ---  
-## Table of Contents
+## 📚 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Model Development Journey](#model-development-journey)
-- [How It Works](#how-it-works)
-- [Future Improvements](#future-improvements)
+- [✨ Project Overview](#-project-overview)
+- [🚀 Features](#-features)
+- [📈 Model Development Journey](#-model-development-journey)
+  - [🧪 Model-1 : Initial Exploration — *Happy vs. Not Happy*](#-model-1--initial-exploration--happy-vs-not-happy)
+  - [🔍 Model-2 : Expanding Emotions & Introducing Transfer Learning](#-model-2--expanding-emotions--introducing-transfer-learning)
+  - [🧠 Model-3 : Final Robust System — *8 Emotions with LeNet-Inspired Architecture*](#-model-3--final-robust-system--8-emotions-with-lenet-inspired-architecture)
+  - [🧠 Deep Learning Framework](#-deep-learning-framework)
+  - [👁️‍🗨️ Computer Vision](#-computer-vision)
+  - [🖥️ Graphical User Interface](#-graphical-user-interface)
+  - [📊 Model Evaluation & Visualization](#-model-evaluation--visualization)
+  - [🛠️ Image Preprocessing](#-image-preprocessing)
+  - [🧠 Automated Labeling](#-automated-labeling)
+  - [🧪 Extensive Data Augmentation](#-extensive-data-augmentation)
+  - [🧾 Source of Wisdom](#-source-of-wisdom)
+- [💡 How It Works](#-how-it-works)
+- [🎮 How to Use the Application](#-how-to-use-the-application)
+- [🖥️💻 Optional: Command-Line Prediction Mode](#️💻-optional-command-line-prediction-mode)
+- [🌱 Future Improvements](#-future-improvements)
+  - [🎭 Expanding Emotion Categories](#-expanding-emotion-categories)
+  - [🧠 Exploring Smarter Architectures](#-exploring-smarter-architectures)
+  - [🌐 Web-Based Deployment](#-web-based-deployment)
+  - [🗂️ Enhancing the Dataset](#-enhancing-the-dataset)
+  - [🧰 More Robust Regularization](#-more-robust-regularization)
+  - [📖 Scriptural Sources](#-scriptural-sources)
+  - [🧠 Tech & Open-Source Contributors](#-tech--open-source-contributors)
 
   
 ## ✨ Project Overview
