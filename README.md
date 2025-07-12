@@ -4,11 +4,11 @@
 ---  
 ## Table of Contents
 
-- [ Project Overview](#ProjectOverview)
-- [Features](#Features)
-- [Model Development Journey](#ModelDevelopmentJourney)
-- [How It Works](#HowItWorks)
-- [Future Improvements](#FutureImprovements)
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Model Development Journey](#model-development-journey)
+- [How It Works](#how-it-works)
+- [Future Improvements](#future-improvements)
 
   
 ## ✨ Project Overview
