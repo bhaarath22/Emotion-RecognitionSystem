@@ -1,6 +1,7 @@
 # 🎭 ***Emotion Recognition Using Facial Expressions with Scriptural Wisdom Response For psychotherapy***  
  
 ### Time Line September 2024 - Present  
+---  
 
 ## ✨ Project Overview
 
@@ -21,7 +22,6 @@ Built on **iteratively trained CNN models**, this system leverages advanced tech
 
 
 ## 🚀 Features
----
 
 * 🎥 **Real-Time Emotion Detection**
   Analyze facial expressions **live via webcam** and instantly detect emotions with precision.
@@ -45,7 +45,7 @@ Built on **iteratively trained CNN models**, this system leverages advanced tech
   * 🎯 Instant results
   * 👆 Easy-to-use buttons
 
-
+---  
 * 🔍 **Robust Face Detection**
   Uses **OpenCV Haar Cascade Classifiers** for fast and accurate **face localization** in both photos and videos.
 
@@ -117,6 +117,7 @@ These insights set the stage for the next model versions:
 ---  
 
 
+
 ### 🔍 **Model-2 : Expanding Emotions & Introducing Transfer Learning**
 
 --> [here](Model-2)
@@ -135,6 +136,7 @@ Scale the model to classify **three key emotions**:
 
   * ✅ `BatchNormalization` for training stability
   * 🛡️ `L2 Regularization` to prevent overfitting
+
 
 * 🔁 **Transfer Learning with VGG16**
 
@@ -222,22 +224,7 @@ Implemented a **diverse and powerful augmentation pipeline** to improve robustne
 
 ---
 
-#### 📊 **Rigorous Evaluation**
-
-The final model underwent a comprehensive evaluation using a dedicated **`TestingDS` dataset**:
-
-* ✅ **Metrics Captured**:
-
-  * `Loss`, `Accuracy`, `Top-K Accuracy`, `Weighted F1-Score`
-  * 🔁 `Confusion Matrix` for per-class insight
-
 > 📈 This model is the **culmination of every learning and technique** used throughout the project — delivering **accuracy, generalization, and interpretability** for real-world emotion recognition.
-
----
-
-## 🛠️ Technologies Used
-
-This project is powered by a robust stack of **Python libraries** and **deep learning tools** that make everything from emotion detection to scriptural response seamless and efficient:
 
 ---
 
