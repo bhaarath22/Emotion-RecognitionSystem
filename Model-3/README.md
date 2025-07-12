@@ -106,7 +106,7 @@ Once the GUI application is running:
 4.  **View Results** 📝:
     *   The detected emotion, its accuracy, and a corresponding informative message will be displayed in the **"Accuracy&loss System"** message box on the top right of the screen.
 ---
-
+![Click](Model-3/Data/GUI)
 ## 🌱 Future Improvements
 
 I'm always looking to enhance this project! Here are some ideas for future development:
