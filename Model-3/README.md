@@ -116,7 +116,8 @@ Once the GUI application is running:
 
 
 
-![Data](GUI.png)
+![GUI Screenshot](https://raw.githubusercontent.com/bhaarath22/Emotion-RecognitionSystem/186d26b702a72db6b2d73ceb2314ccb97d6161f1/Model-3/Data/GUI.png)
+
 
 ## 🌱 Future Improvements
 
