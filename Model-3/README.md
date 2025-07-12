@@ -2,7 +2,7 @@
 
  **Model-3**! 🎉 This Model is designed to accurately identify 8-human emotions, such as happiness, sadness, anger, and more, from facial expressions. It leverages advanced deep learning techniques and a custom-built GUI to provide a seamless and interactive experience.
 
- -> [Code](Model-3/0-Main.py)
+ -> [Code](0-Main.py)
   
 ## 🚀 Features
 
@@ -13,7 +13,7 @@
 *   **Interactive GUI**: A full-screen, intuitive interface built with Tkinter for easy interaction.
 *   **Informative Messages**: Based on the detected emotion, the system provides helpful and context-aware messages, loaded dynamically from a JSON file.
 
-  ->[code](Model-3/00-EmotionLines.json)  
+  ->[code](00-EmotionLines.json)  
   
 *   **Core Functionality (CLI)**: For those who prefer the command line, there's also a console-based interface to process images or run the webcam feed.
 *   **Robust Deep Learning Model**: At its heart, a carefully trained deep learning model ensures high accuracy in emotion classification.
@@ -31,7 +31,7 @@
     *   The model then outputs a prediction, which is mapped to one of the **8 supported emotion labels**: `['anger', 'contempt', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']`.
     *   Along with the emotion label, the system also calculates and displays the **confidence (accuracy)** of the prediction.
 
--> [code](Model-3/2-Prediction.py)  
+-> [code](2-Prediction.py)  
 
 3.  **Dynamic Messaging** 💬:
     *   To make the experience more engaging, the system retrieves a random, pre-defined message corresponding to the detected emotion. These messages are stored in a JSON file (`LinesForEmotions.json`).
