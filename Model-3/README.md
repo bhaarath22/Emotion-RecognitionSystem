@@ -85,7 +85,7 @@ My model development focused on building a robust convolutional neural network (
     *   **Visualizations & Metrics**: Post-training analysis included plots of **Training and Validation Accuracy/Loss**, and a comprehensive evaluation with **Weighted F1 Score**, a **Classification Report**, and a detailed **Confusion Matrix**. These metrics are crucial for understanding how well the model performs across all emotion classes.
 
 ---
-
+![out](Model-3/Data/Presult.png)
 ## 🧪 GUI
 
 Once the GUI application is running:
@@ -108,7 +108,7 @@ Once the GUI application is running:
 
 
 
-![Data/GUI](https://github.com/bhaarath22/Emotion-RecognitionSystem/blob/3dcd816e843b16b7098f937330c267f370a68b89/Model-3/Data/GUI)  
+![Data]()  
 
 ## 🌱 Future Improvements
 
