@@ -21,7 +21,7 @@
 
 This project presents a powerful and insightful **🎭 Emotion Recognition System** that classifies human emotions 😄😢😠😲 using **Deep Learning**, primarily through **Convolutional Neural Networks (CNNs)** 🧠.
 
-Throughout the project, I made four models in total from various datasets, using new approaches each time. I started learning all this from scratch, including deep learning, CNNs, data augmentation, transfer learning,model Optimixation and machine learning.  
+Throughout the project, I made four models in total from various datasets, using new approaches each time. I started learning all this from scratch, including deep learning, CNNs, data augmentation, transfer learning, model Optimization and machine learning.  
 
 It features a sleek and user-friendly **🖥️ Graphical User Interface (GUI)** that supports:
 
